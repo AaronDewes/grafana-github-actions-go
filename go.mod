@@ -1,8 +1,8 @@
 module github.com/grafana/grafana-github-actions-go
 
-go 1.21
+go 1.22.0
 
-toolchain go1.21.5
+toolchain go1.24.9
 
 require (
 	dagger.io/dagger v0.9.7
@@ -22,7 +22,7 @@ require (
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/alexflint/go-arg v1.4.2 // indirect
 	github.com/alexflint/go-scalar v1.0.0 // indirect
-	github.com/cloudflare/circl v1.1.0 // indirect
+	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
